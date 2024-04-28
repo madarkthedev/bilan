@@ -1,0 +1,23 @@
+.loginPage {
+    background: url('images/abhbc.jpg');
+    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("images/abhbc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.loginForm {
+    background-color: rgba(155, 152, 154, 0.373);
+    color: white;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    .loginPage {
+        background-size: cover; /* Cover the entire viewport */
+    }
+
+    .loginForm {
+        padding: 20px; /* Add some padding to the form for better readability */
+    }
+}
